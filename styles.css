@@ -1,0 +1,119 @@
+/*Imported font-family*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+/* Basic setup */
+
+div.bodyContent {
+    padding: 0 10% 0 10%;
+}
+
+body {
+    font-family: 'Kaushan Script', cursive, Courier, monospace;
+    background-image: url(assets/topography.png);
+    margin: 0px;
+}
+
+/*Navbar*/
+
+header {
+    background-color: #333333;
+    color: #ff0099;
+    font-family: monospace;
+    padding-right: 10%;
+    margin: 0 0 0 0;
+    padding-bottom: 10px;
+    max-height: 3em;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+img {
+    max-width: 110%;
+    height: auto;
+}
+
+.logo {
+    float: left;
+    position: fixed;
+    margin-top: 10px;
+    padding-left: 10%;
+}
+
+.navigation {
+    margin: 0px;
+    float: right;
+}
+
+.navigation li {
+    list-style: none;
+    float: left;
+}
+
+.navigation li a {
+    color: #ff0099;
+    margin: 10px 8px 0 8px;
+    padding-right: 10%;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+}
+
+.navigation li a i {
+    width: 100%;
+    font-size: 20px;
+}
+
+.navigation a:hover, .show-menu-btn:hover, .hide-menu-btn:hover {
+    color: #99049e;
+}
+
+/*Website content*/
+
+.introduction {
+    padding-top: 5em;
+    line-height: 20px;
+}
+
+.name {
+    font-size: 1.5em;
+    padding-bottom: 0.15em;
+}
+
+.jobTitle {
+    color: #ff0099;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Courier;
+}
+
+.partOne, .partTwo {
+    font-family: monospace;
+    font-size: 1.15em;
+}
+
+.divider {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.divider1, .divider2, .divider3 {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.techTitle {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-family: Courier;
+    font-size: 18px;
+}
+
+p {
+    font-family: monospace;
+    font-size: 14px;
+}
